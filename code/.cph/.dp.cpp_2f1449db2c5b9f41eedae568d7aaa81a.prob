@@ -1,0 +1,1 @@
+{"name":"Local: dp","url":"c:\\Users\\partha\\OneDrive\\Desktop\\code\\dp.cpp","tests":[{"id":1714189204469,"input":"6\n4 1 5 2 7 3","output":"5"},{"id":1714200225567,"input":"4\n7 122 1 69","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\partha\\OneDrive\\Desktop\\code\\dp.cpp","group":"local","local":true}
