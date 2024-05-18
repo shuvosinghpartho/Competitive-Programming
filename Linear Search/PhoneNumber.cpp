@@ -38,3 +38,30 @@ In the second example, you can make two phone numbers from the cards, for exampl
 In the third example you can't make any phone number from the given cards.*/
 
 
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n; cin >> n;
+    int count = 0;
+    string s; cin >> s;
+    if ( n >= 11) {
+        for ( int i = 0; i < n; i++) {
+            if (s[i] == '8') {
+                count++;
+            }
+        }
+        if (count < n / 11) {
+            cout << count << '\n';
+        }
+        else {
+            cout << n / 11 << '\n';
+        }
+    }
+    else {
+        cout << "0" << '\n';
+    }
+
+    return 0;
+}
